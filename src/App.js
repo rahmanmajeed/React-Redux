@@ -1,12 +1,10 @@
 import './App.css';
-// import HITW from './redux/HITW'
-import Section from './components/Section'
+import Todo from './components/Todo'
 function App() {
   return (
     <div className="App">
-      <h1>Redux Initial</h1>
-
-      <Section/>
+      <h1>Redux Todo</h1>
+      <Todo/>
     </div>
   );
 }
